@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="rssmd.studium.nhd.imeireceiver.MainActivity"
+            android:name="de.nhd.volcc.imeireceiver.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,10 +24,10 @@
         </activity>
 
         <receiver
-            android:name="rssmd.studium.nhd.imeireceiver.Receiver"
+            android:name="de.nhd.volcc.imeireceiver.Receiver"
             android:enabled="true" >
             <intent-filter android:priority="0" >
-                <action android:name="rssmd.studium.nhd.SYNC_ACTION" />
+                <action android:name="de.nhd.volcc.SYNC_ACTION" />
             </intent-filter>
         </receiver>
     </application>

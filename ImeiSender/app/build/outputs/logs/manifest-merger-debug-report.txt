@@ -1,57 +1,57 @@
 -- Merging decision tree log ---
 manifest
-ADDED from AndroidManifest.xml:2:1
-	xmlns:android
-		ADDED from AndroidManifest.xml:2:11
+ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from AndroidManifest.xml:3:5
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml
 application
-ADDED from AndroidManifest.xml:5:5
-MERGED from com.android.support:appcompat-v7:22.1.1:22:5
-MERGED from com.android.support:support-v4:22.1.1:22:5
+ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:22.1.1] /home/nhd/.android/build-cache/920a28f07bf32376356d016298afc195d420551d/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.1.1] /home/nhd/.android/build-cache/d0c16affcad168c236028b666dcd332f94a94bfc/output/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from AndroidManifest.xml:8:9
+		ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:8:9-41
 	android:allowBackup
-		ADDED from AndroidManifest.xml:6:9
+		ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from AndroidManifest.xml:7:9
+		ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from AndroidManifest.xml:9:9
-activity#rssmd.studium.nhd.imeisender.MainActivity
-ADDED from AndroidManifest.xml:10:9
+		ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:9:9-40
+activity#de.nhd.volcc.imeisender.MainActivity
+ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:10:9-18:20
 	android:label
-		ADDED from AndroidManifest.xml:12:13
+		ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:12:13-45
 	android:name
-		ADDED from AndroidManifest.xml:11:13
+		ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:11:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:13:13
+ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:14:17
+ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from AndroidManifest.xml:14:25
+		ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:16:17
+ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from AndroidManifest.xml:16:27
+		ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:16:27-74
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from AndroidManifest.xml:20:5
+ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:20:5-74
 	android:name
-		ADDED from AndroidManifest.xml:20:22
+		ADDED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml:20:22-72
 uses-sdk
-INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
-MERGED from com.android.support:appcompat-v7:22.1.1:20:5
-MERGED from com.android.support:support-v4:22.1.1:20:5
+INJECTED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:22.1.1] /home/nhd/.android/build-cache/920a28f07bf32376356d016298afc195d420551d/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.1.1] /home/nhd/.android/build-cache/d0c16affcad168c236028b666dcd332f94a94bfc/output/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nhd/git/volcc/ImeiSender/app/src/main/AndroidManifest.xml
