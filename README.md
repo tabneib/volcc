@@ -1,4 +1,4 @@
-# Volume-base Covert Channel
+# Volume-based Covert Channel
 
 Simple implementation of a volume-base covert channel for two Android apps: one sender and one receiver. 
 The secret to be transported is the IMEI number being read by the sender and could be sent out to the internet 
